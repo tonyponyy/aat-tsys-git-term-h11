@@ -12,12 +12,12 @@ public class Libro{
 		this.autor = "";
 	}
 	
-	public Libro (String titulo, int pag, String tit, String autor) {
-		this.titulo = titulo;
-		this.paginas = pag;
-		this.titulo = tit;
-		this.autor = autor;
-	}
+	public Libro (String isbn, int pag, String tit, String autor) {
+        this.isbn = isbn;
+        this.paginas = pag;
+        this.titulo = tit;
+        this.autor = autor;
+    }
 
 	public String getIsbn() {
 		return isbn;
